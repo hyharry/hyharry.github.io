@@ -1,0 +1,71 @@
+#title in header
+title: "Exploration with Computation"
+## TODO: need to change the width
+
+#main info
+#owner
+owner: "This is Yi."
+email: yi.hu@alumni.epfl.ch
+info: "PhD | EPFL | Computational Sciences | Multiscale Mechanics | Materials | Machine Learning | Topology Optimization"
+#description
+#desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
+desc: "I am Yi Hu (胡祎). I have a broad interest in Mechanics, Materials and Numerical Methods. 
+My expertise in computational methods and programming allows me to approach a complex problem quickly. 
+But the aim is not just about modeling. The aim is to describe the real world with simulations and models, 
+and then make predictions and draft designs for applications."
+site_purpose: "This site documents my past research experiences, which can let people know more about me.
+As a humble person who always likes learning, I will constantly post my thoughts/notes/projects on this site.
+It is a good way to absorb new stuffs after graduation."
+
+#menu
+menu:
+  Research: /Research
+  #Posts: /test2
+  #Posts: /Posts
+
+#index/main page max show posts (in number)
+max_post: 4
+
+# Colors use hex color without #
+# Theme color
+tcolor: 0FA0CE
+
+# Define path to user css
+#(could be also located outside of theme)
+# Relative to source/ directory
+## Yi: this is not used if default is invoked
+# usercss: css/user.css
+
+# social profile at the footer/bottom
+footer: true
+#placename: Earth
+#placelink: https://en.wikipedia.org/wiki/Earth
+#github: https://github.com/adisaktijrs
+linkedin: https://www.linkedin.com/in/yi-hu-harry/
+#twitter: https://twitter.com/adisaktijrs
+#instagram: https://instagram.com/adisaktijrs
+#stackoverflow: https://stackoverflow.com/story/tobiasreithmeier
+
+# Misc
+nanobar: /js/nanobar.min.js
+switch_light: ☀️
+switch_dark: 🏂️
+
+# Picture enlargement
+picjs: /js/pic.min.js
+
+# favicon
+# favicon: /images/favicon.png
+favicon: /images/Aluminum_Ore_minecraft.png
+# thumbnail
+thumbnail: /images/thumbnail.jpg
+
+article:
+  thumbnail: true
+
+# DISQUS comments (sign up to Disqus to get disqus_shortname)
+disqus_enabled: false
+disqus_shortname: https-adisaktijrs-github-io
+
+mathjax:
+   enable: true

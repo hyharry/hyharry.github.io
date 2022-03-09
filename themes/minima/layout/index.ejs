@@ -1,0 +1,68 @@
+<div class="row">
+  <div class="column">
+    <!-- Main information, edit it on theme/_config.yml -->
+    <h2 class="mb-2"><%= theme.owner %></h2>
+    <p><%= theme.info %></p>
+    <p><%= theme.desc %></p>
+    <p><%= theme.site_purpose %></p>
+    <!-- <h3> A simple CV </h3> -->
+
+    <h3>École Polytechnique Fédérale de Lausanne, Ph.D. 2021</h3>
+
+    <p>
+    <div style='padding-left: 30pt'>
+    Thesis: Precipitation Strengthening in Al-Mg-Si Alloys
+    </div>
+    </p>
+
+    <h3>Universität Stuttgart, M.Sc. 2016</h3>
+
+    <p>
+    <div style='padding-left: 30pt'>
+    Thesis: Phase field approaches to topology optimization
+    </div>
+    </p>
+
+    <h3>Tongji Universtiy, B.E. 2014</h3>
+
+    <p>
+    <div style='padding-left: 30pt'>
+    Thesis: Damage simulation of concrete tunnel segment lining
+    </div>
+    </p>
+
+    <p>
+      In my spare time, I like reading newspapers and magazines, playing tennis (or skiing in winter),
+      and taking photos when wandering around.
+    </p>
+
+
+  </div>
+</div>
+
+
+
+<!-- <h3>Recent Posts</h3>
+
+<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
+<div class="row">
+
+  <div class="three columns left lit">
+    <p class="bottom"><%- full_date(post.date, 'll') %></p>
+  </div>
+  <div class="nine columns left mb-3">
+    <a href="<%- url_for(post.path) %>" >
+      <% if (post.title == "") { %>
+        no title
+      <% } else { %>
+        <%- post.title %>
+      <% } %>
+    </a>
+  </div>
+</div>
+<% }) %> -->
+
+<!-- TODO: should link to the pdf files -->
+
+<h4> <a href="YiHu_cv_en_2022.pdf" target="blank">Full CV</a></h4>
+<h4> <a href="<%= config.root %>archives">All Posts</a></h4>
