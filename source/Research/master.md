@@ -1,6 +1,5 @@
 ---
 title: Master
-mathjax: true
 ---
 ## Phase field approaches in Topology Optimization
 
