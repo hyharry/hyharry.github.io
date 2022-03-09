@@ -39,7 +39,7 @@ Usually, the following issues need to be resolved:
 </center>
 </p>
 
-<h4> <a href="phd" target="blank">check out phase-field approach and implementation</a></h4>
+<h4> <a href="master" target="blank">check out phase-field approach and implementation</a></h4>
 
 
 ## Damage Simulation in Civil Engineering

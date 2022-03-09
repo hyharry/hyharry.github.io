@@ -15,3 +15,5 @@ The companion [video tutorial](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=
 After spending some time on searching for themes, I found the [minima](https://adisaktijrs.github.io/minima/) theme. The theme is lightweighted and simple, which is just what I want, because I want to keep things plain and simple. A narrow design of the main text is very good for writing, so I need to be as concise as possible, and always keep in mind that the content is for quick understanding of general audience.
 
 To write math equations (I need to keep them as few as possible), I installed the [hexo-math](https://www.npmjs.com/package/hexo-math) plugin, which is also easy to use.
+
+As for the deployment of site, one just needs to follow the instruction [here](https://hexo.io/docs/github-pages.html). And remember to change the __Settings > Pages > Source, branch to gh-pages__. The final deployment may take a little while. So the pushed change may not be in effect immediately.
