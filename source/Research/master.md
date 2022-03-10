@@ -1,7 +1,7 @@
 ---
 title: Master
 ---
-## Phase field approaches in Topology Optimization
+## Phase-field approaches in Topology Optimization
 
 In a Topology Optimization problem, we often have a design variable {% mathjax %} \rho {% endmathjax %} in [-1, 1], representing how much material do we place at each point. A formal presentation of the problem is as follows
 
@@ -66,4 +66,4 @@ We can also solve a therm-mechanical problem presented below. We observe a signi
 <img src="master/thermo.png" width="450px">
 </center>
 
-<h4> <a href="master_thesis_2016.pdf" target="blank">You can check out my master thesis for further interest.</a></h4>
+<h4> <a href="master_thesis_2016.pdf" target="blank">my master thesis</a></h4>

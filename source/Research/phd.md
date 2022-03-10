@@ -27,7 +27,6 @@ Then I implemented this atomistic information in a widely used Discrete Dislocat
 
 <!-- Fig: one row of DD vs atom -->
 
-Have a look at this paper, if you want more details.
 <h4> <a href="https://iopscience.iop.org/article/10.1088/1361-651X/ab5489/meta?casa_token=XsmQ0VqqNgIAAAAA:Kq32XHO-8xelDhuju42r03dV9cZkL3EKhHdHHPcE_AB6veUKZ7VzAw5oHqNYeCwGMe32RU1OWjQ">Y. Hu et al. 2020 MSMSE</a></h4>
 
 ### mesoscale study
@@ -57,7 +56,6 @@ However, even with the core energy at finite temperature, we had an overestimate
 </center>
 </p>
 
-Have a look at this paper, if you want more details.
 <h4> <a href="https://www.sciencedirect.com/science/article/pii/S002250962100065X?via%3Dihub">Y. Hu and W. A. Curtin. 2021 JMPS</a></h4>
 
 ### atomistic study
@@ -87,5 +85,4 @@ For a realistic material, one needs to take into account many other factors, lik
 </center>
 </p>
 
-
-If you have further interest, you can check out [my thesis](https://infoscience.epfl.ch/record/290650?ln=en).
+<h4> <a href="https://infoscience.epfl.ch/record/290650?ln=en">my thesis</a></h4>

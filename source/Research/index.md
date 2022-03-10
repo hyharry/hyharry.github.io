@@ -19,7 +19,7 @@ Some highlights of my research:
 </center>
 
 
-<h4> <a href="phd" target="blank">more details about my PhD</a></h4>
+<h4> <a href="phd" target="blank">more about my PhD</a></h4>
 
 <!-- Precipitation strengthening is one of the key strengthening mechanisms in many alloy systems, e.g. aluminium alloys, magnesium alloys, nickel-based superalloy, and etc. These alloys undergo a special heat treatment to form a second phase (precipitate) in the matrix system. The  -->
 
@@ -39,7 +39,7 @@ Usually, the following issues need to be resolved:
 </center>
 </p>
 
-<h4> <a href="master" target="blank">check out phase-field approach and implementation</a></h4>
+<h4> <a href="master" target="blank">phase-field approach and implementation</a></h4>
 
 
 ## Damage Simulation in Civil Engineering
