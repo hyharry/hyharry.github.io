@@ -3,7 +3,7 @@ title: Research
 ---
 
 ## Multiscale Mechanics for Alloys
-Alloys are one of the key materials in engineering. For structural applications, we often require the material to be sufficient strong and ductile. Other requirements should be taken into account for real engineering scenarios, e.g. fatigue, corrosion resistance, high temperature properties and etc.
+Alloy is one of the key materials in engineering. For structural applications, we often require the material to be sufficient strong and ductile. Other requirements should be taken into account for real engineering scenarios, e.g. fatigue, corrosion resistance, high temperature properties and etc.
 
 In my PhD research, I investigated the precipitation strengthening mechanisms in Al-6xxx alloys thoroughly. The outcome of my research is a validated rigorous model that we can rely on, when desgining new precipitate-strengthened materials. 
 

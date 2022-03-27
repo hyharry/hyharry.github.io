@@ -59,7 +59,7 @@ However, even with the core energy at finite temperature, we had an overestimate
 <h4> <a href="https://www.sciencedirect.com/science/article/pii/S002250962100065X?via%3Dihub">Y. Hu and W. A. Curtin. 2021 JMPS</a></h4>
 
 ### atomistic study
-After the careful mesoscale study, I hoped to find out what really happens at atomistic scale. Does the precipitate really get sheared? The state-of-art  Neural Network Potential gave us the answer. After careful and heavy validation of the potential, we were convinced that the NNP is ready to use for  solving realistic mechanics problem. Systematic dislocation-precipitate interaction simulations were carried out. They showed that dislocation can either shear or loop the precipitate, depending on precipitate orientation and precipitate internal misfit stress. The comparision between atomistic and DDD for the same geometry laid the basis for model development. 
+After the careful mesoscale study, I hoped to find out what really happens at atomistic scale. Does the precipitate really get sheared? The state-of-art  Neural Network Potential gave us the answer. After careful and heavy validation of the potential, we were convinced that the NNP is ready to use for  solving realistic mechanics problem. Systematic dislocation-precipitate interaction simulations were carried out. They showed that dislocation can either shear or loop the precipitate, depending on precipitate orientation and precipitate internal misfit stress.  
 
 <!-- The potential was carefully trained on a curated database by my colleagues. Since all the important DFT atomistic configurations (with force and energy) were contained in the database, it could probably capture the hidden behaviors for a realistic problem. Then I carefully validated the NNP with a bunch of calculations, including dislocation core energy calculation, and some more advanced comparisons with continuum calculation, like misfit stress calculation. It turned out that the NNP has the capacity for solving a wide range of mechanical problems, in particular, the dislocation-precipitate interactions. -->
 
@@ -72,6 +72,16 @@ After the careful mesoscale study, I hoped to find out what really happens at at
 </center>
 </p>
 
+
+### efficient DDD with atomistic accuracy
+One of the achievments in my research was that I made DDD simulations possess an atomistic accuracy by implementing the key atomistic features (core energy, interaction, misfit stress) in DDD. With lower level critical atomistic information, the DDD dislocation configuration matches quite well with the atomistic one (screw dislocation in the figure). Furthermore, the simulated CRSS is close to the expensive atomistic result. So DDD (with critical atomistic quantities) can be trusted, and costly atomistic simulations can be avoided. This comparision between atomistic and DDD laid the basis for the strength-prediction-model development.
+
+<p>
+<center>
+<img src="phd/dd_with_atom_accuracy.png" width="450px">
+<div><i>costly atomistic simulation vs efficient DDD (purple)</i></div>
+</center>
+</p>
 
 ### prediction model
 Combining the knowledge obtained from mesoscale and atomistic study, we came up with a strategy for CRSS calculation. For looping mechanism, CRSS is calculated by the efficient atomistic-accurate DDD simulation, while for shearing mechanism, we have a validated prediction model. The lesser of two is the controlling mechanism. The prediction involves material properties (from ab-initio calculations) as well as geometry quantities, which can be optimized so that a maximal CRSS is attained.
