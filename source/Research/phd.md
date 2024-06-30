@@ -95,4 +95,6 @@ For a realistic material, one needs to take into account many other factors, lik
 </center>
 </p>
 
+<h4> <a href="https://www.sciencedirect.com/science/article/pii/S1359645422005250">Y. Hu and W. A. Curtin. 2022 Acta</a></h4>
+
 <h4> <a href="https://infoscience.epfl.ch/record/290650?ln=en">my thesis</a></h4>

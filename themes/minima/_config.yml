@@ -6,16 +6,16 @@ title: "Exploration with Computation"
 #owner
 owner: "This is Yi."
 email: yi.hu@alumni.epfl.ch
-info: "PhD | EPFL | Computational Sciences | Multiscale Mechanics | Materials | Machine Learning | Topology Optimization"
+info: "PostDoc @ MPIE | PhD @ EPFL | Computational Science | Multiscale Mechanics | Materials | Metallurgy | Machine Learning | Topology Optimization"
 #description
 #desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
-desc: "I am Yi Hu (胡祎). I have a broad interest in Mechanics, Materials and Numerical Methods. 
-My expertise in computational methods and programming allows me to approach a complex problem quickly. 
-But the aim is not just about modeling. The aim is to describe the real world with simulations and models, 
-and then make predictions and draft designs for applications."
-site_purpose: "This site documents my past research experiences, which can let people know more about me.
-As a humble person who always likes learning, I will constantly post my thoughts/notes/projects on this site.
-It is a good way to absorb new stuffs after graduation."
+desc: "I am Yi Hu (胡祎).I have a broad interest in Mechanics, Materials, and Numerical Methods. 
+My expertise in computational methods and programming enables me to quickly address complex problems. 
+However, the goal extends beyond mere modeling. The aim is to depict the real world through simulations and models, 
+and then to make predictions and create designs for practical applications."
+site_purpose: "This site documents my past research experiences, which can help people learn more about me.
+As a humble person who is always eager to learn, I will continually post my thoughts, notes, and projects on this site. 
+It is an effective way to continue absorbing new knowledge after graduation."
 
 #menu
 menu:
